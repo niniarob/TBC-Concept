@@ -6,6 +6,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* position: relative; */
 }
 .header_container {
   max-width: 1110px;
@@ -97,7 +98,7 @@ header {
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
-  padding: 8px;
+  /* padding: 8px; */
 }
 .burger_menu_line {
   background-color: #555f62;
@@ -130,6 +131,10 @@ header {
 .burger_menu.open .line3 {
   transform: rotate(-45deg) translate(5px, -5px);
   width: 20px;
+}
+.header_bg_color {
+  background-color: #f9fafa !important;
+  /* background-color: #3dbaba !important; */
 }
 
 /* select language styles */
@@ -204,8 +209,8 @@ header {
     display: none;
   }
   header {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .header_container {
     width: 100%;

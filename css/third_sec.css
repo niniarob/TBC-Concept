@@ -120,3 +120,38 @@
 .sec_img_card img {
   object-fit: cover;
 }
+@media (max_width: 480px) {
+  /* .grid_part {
+    grid-column-gap: 16px;
+    margin-left: -45px;
+    margin-right: -45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    overflow: auto;
+  }
+  .img_scale {
+    width: 280px;
+    flex: none;
+  } */
+}
+@media (max-width: 767px) {
+  .grid_part {
+    grid-column-gap: 16px;
+    margin-left: -45px;
+    margin-right: -45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    overflow: auto;
+  }
+  .img_scale {
+    width: 280px;
+    flex: none;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .img_scale {
+    min-height: 232px;
+  }
+}

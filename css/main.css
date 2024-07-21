@@ -29,7 +29,7 @@ main {
   width: 100%;
   padding: 0 47px 0 47px;
   background-color: #f7f8f8;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   border-bottom: 1px solid #eef1f1;
   /* border: 1px solid red; */
   display: flex;

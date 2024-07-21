@@ -6,8 +6,12 @@
   z-index: 10000000;
   left: 0;
   right: 0;
+  /* bottom: 1000px; */
   top: 80px;
   cursor: pointer;
+  border: 1px solid red;
+  max-height: 100%;
+  overflow: auto;
 }
 .header_menu_mobile_version.show {
   display: block;

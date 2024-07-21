@@ -114,10 +114,10 @@ footer {
   background-color: #fff;
   padding-bottom: 45px;
 }
-.global_padding {
+/* .global_padding {
   padding-left: 47px;
   padding-right: 47px;
-}
+} */
 .footer_main_container {
   width: 100%;
   max-width: 1110px;

@@ -9,9 +9,11 @@
   /* bottom: 1000px; */
   top: 80px;
   cursor: pointer;
-  border: 1px solid red;
-  max-height: 100%;
+  /* border: 1px solid red; */
+  /* max-height: 100%; */
   overflow: auto;
+  height: 100vh;
+  /* overflow: scroll; */
 }
 .header_menu_mobile_version.show {
   display: block;
@@ -137,6 +139,7 @@
   padding: 32px 0 32px 0;
   background-color: #f9fafa;
   border-top: 1px solid #eef1f1;
+  height: 200px;
 }
 .footer_container {
   padding: 0 45px 0 45px;

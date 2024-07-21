@@ -135,7 +135,22 @@
     flex: none;
   } */
 }
-@media (max-width: 767px) {
+@media (max-width: 480px) {
+  .grid_part {
+    grid-column-gap: 16px;
+    margin-left: -45px;
+    margin-right: -15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;
+    overflow: auto;
+  }
+  .img_scale {
+    width: 280px;
+    flex: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
   .grid_part {
     grid-column-gap: 16px;
     margin-left: -45px;

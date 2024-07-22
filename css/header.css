@@ -214,9 +214,6 @@ header {
 }
 .choose_language:hover {
   background-color: #f1f1f1;
-  display: flex;
-  align-items: center;
-  border: 1px solid red;
   transition: 0.3s;
 }
 .choose_language:hover .lang_en {

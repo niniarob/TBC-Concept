@@ -1,18 +1,21 @@
 @font-face {
   font-family: "tbc-font";
-  src: url("../assets/fonts/tbc-font.woff2") format("woff2"),
+  src:
+    url("../assets/fonts/tbc-font.woff2") format("woff2"),
     url("../assets/fonts/tbc-font.woff") format("woff");
 }
 
 @font-face {
   font-family: "tbc-font-bold";
-  src: url("../assets/fonts/tbc-font-bold.woff2") format("woff2"),
+  src:
+    url("../assets/fonts/tbc-font-bold.woff2") format("woff2"),
     url("../assets/fonts/tbc-font-bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "tbc-font-semi-bold";
-  src: url("../assets/fonts/tbc-font-semi-bold.woff2") format("woff2"),
+  src:
+    url("../assets/fonts/tbc-font-semi-bold.woff2") format("woff2"),
     url("../assets/fonts/tbc-font-semi-bold.woff") format("woff");
 }
 
@@ -125,7 +128,7 @@ main {
 
 /* main images styles */
 .main_image_section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   min-height: 360px;
   background-image: url("../assets/images/mainimage.webp");

@@ -41,6 +41,7 @@
   margin-bottom: 20px;
   cursor: pointer;
 }
+
 .flex_cont p {
   color: #141719;
   font-size: 18px;
@@ -67,7 +68,9 @@
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s ease, opacity 1s ease;
+  transition:
+    max-height 1s ease,
+    opacity 1s ease;
 }
 .header_menu_dropdown.active .true {
   max-height: 500px;
@@ -192,4 +195,13 @@
   }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
+  .flex_cont .web_flex_cont {
+    font-size: 28px;
+  }
+  .contact_container .web_flex_cont {
+    font-size: 28px;
+  }
+  .social .web_flex_cont {
+    font-size: 28px;
+  }
 }

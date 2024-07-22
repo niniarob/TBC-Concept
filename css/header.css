@@ -129,7 +129,9 @@ header {
   border-radius: 1px;
   height: 2px;
   width: 25px;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 .line1 {
   width: 11px;
@@ -164,7 +166,7 @@ header {
 .choose_language {
   border-radius: 4px;
   padding-left: 8px;
-  padding-right: 8px;
+  /* padding-right: 8px; */
   font-weight: 700;
   color: #555f62;
   position: relative;

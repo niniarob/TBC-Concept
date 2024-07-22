@@ -1,8 +1,139 @@
 footer {
-  padding-top: 60px;
+  margin-top: 60px;
+  /* margin-bottom: 60px; */
+  /* padding: 0 47px 0 47px; */
+  /* display: none; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.web_mobile_footer {
   display: none;
   /* border: 1px solid red; */
 }
+.footer_logo_lang {
+  /* border: 1px solid rgb(0, 255, 51); */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%;
+  max-width: 1110px; */
+  /* flex-direction: ; */
+  /* padding-bottom: 60px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.footer_logo_lang_cont_web {
+  width: 100%;
+  max-width: 1110px;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.choose_languagee {
+  border-radius: 4px;
+  padding-left: 8px;
+  /* padding-right: 8px; */
+  font-weight: 700;
+  color: #555f62;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.choose_languagee:hover {
+  background-color: #f1f1f1;
+
+  transition: 0.3s;
+}
+.choose_languagee:hover .lang_en {
+  display: block;
+}
+.footer_logo_lang_cont {
+  /* border: 1px solid rgb(0, 255, 17); */
+  width: 100%;
+  padding: 0 47px;
+  /* max-width: 1110px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+.web_footer_links {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  padding: 0 47px;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1110px;
+  margin-top: 40px;
+  display: flex; */
+  /* gap: 76px; */
+}
+.center {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  margin-top: 40px;
+  display: flex;
+  gap: 76px;
+}
+.links_item {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* gap: 20px; */
+  padding: 20px 30px 20px 0px;
+}
+.item {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  /* padding-bottom: 10px; */
+}
+.item p {
+  color: #555f62;
+}
+.cont_links_item {
+  /* border: 1px solid red; */
+  padding-top: 34px;
+}
+.cont_links_item a p {
+  color: #555f62;
+}
+
+.web_mob_footer_logo {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  background-color: #f9fafa;
+  border-top: 1px solid #eef1f1;
+  /* border: 3px solid red; */
+  /* max-width: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display: flex; */
+}
+.flex_footer_container {
+  width: 100%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding: 0;
+}
+
 .footer_top {
   /* border: 1px solid green; */
   background-color: #fff;
@@ -14,6 +145,7 @@ footer {
   /* padding-left: 47px;
   padding-right: 47px; */
 }
+
 .footer_containerr {
   /* border: 1px solid red; */
   width: 100%;
@@ -132,8 +264,54 @@ footer {
   grid-auto-columns: 1fr;
   display: grid;
 }
-@media (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   footer {
+    /* padding-left: 45px;
+    padding-right: 45px; */
+    /* border: 1px solid red; */
+  }
+  .web_mobile_footer {
+    display: none;
+  }
+  .footer_logo_lang {
+    /* padding-left: 45px;
+    padding-right: 45px; */
+    /* border: 1px solid red; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  footer {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .web_footer_links {
+    gap: 20px;
+    border: 1px solid red;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .web_mobile_footer {
     display: block;
+  }
+  .web_footer_links {
+    display: none;
+  }
+  .web_mobile_footer {
+    width: 100%;
+  }
+  .web_footer_links {
+    gap: 10px;
+    display: none;
+    border: 1px solid red;
+  }
+  .web_mob_footer_logo {
+    display: none;
+  }
+  .footer_logo_lang_cont_web {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 25px;
   }
 }

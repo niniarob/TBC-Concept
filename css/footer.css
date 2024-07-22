@@ -9,6 +9,10 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.footer_top_part {
+  width: 100%;
+  /* border: 1px solid red; */
+}
 .web_mobile_footer {
   display: none;
   /* border: 1px solid red; */
@@ -333,7 +337,13 @@ footer {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  footer {
+  /* footer {
+  } */
+  .footer_top_part {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .web_mob_footer_logo {
     padding-left: 45px;
     padding-right: 45px;
   }
@@ -344,7 +354,7 @@ footer {
     /* display: none; */
     gap: 0px;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .center {
     gap: 20px;

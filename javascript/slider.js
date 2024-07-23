@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const progress = currentTranslate / maxTranslate;
       const dragWidth = parseInt(window.getComputedStyle(drag).width, 10);
       const scrollbarWidth = parseInt(window.getComputedStyle(scrollbar).width, 10);
-      const maxDragLeft =dragWidth - scrollbarWidth ;
+      const maxDragLeft = dragWidth -scrollbarWidth ;
   
       // Ensure the drag element stops at the end of the scrollbar when the slide stops
       drag.style.transform = `translateX(${progress * maxDragLeft}px)`;
@@ -49,5 +49,19 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Initial update of scrollbar position
     updateScrollbarPosition();
+  
+    // Add event listeners to change arrow colors when clicked
+    const prevArrow = document.querySelector('.main-slider_prev');
+    const nextArrow = document.querySelector('.main-slider_back');
+  
+    prevArrow.addEventListener('click', function() {
+      prevArrow.querySelector('svg').style.fill = '#182cc0';
+      nextArrow.querySelector('svg').style.fill = '#a5aaac';
+    });
+  
+    nextArrow.addEventListener('click', function() {
+      nextArrow.querySelector('svg').style.fill = '#182cc0';
+      prevArrow.querySelector('svg').style.fill = '#a5aaac';
+    });
   });
   

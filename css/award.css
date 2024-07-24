@@ -219,3 +219,9 @@
     /* overflow: auto; */
   }
 }
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .section_awards_swiper {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+}

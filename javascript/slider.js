@@ -11,18 +11,41 @@ document.addEventListener('DOMContentLoaded', function () {
         draggable: true,
       },
       breakpoints: {
-        640: {
-          slidesPerView: 1,
-          spaceBetween: 20,
+        0: {
+            spaceBetween: 15,
+            slidesPerView: 1.213,
+            scrollbar: {
+                dragSize: 200
+            }
+        },
+        480: {
+            spaceBetween: 15,
+            slidesPerView: 1.590,
+            scrollbar: {
+                dragSize: 50
+            }
         },
         768: {
-          slidesPerView: 2,
-          spaceBetween: 30,
+            spaceBetween: 15,
+            slidesPerView: 2,
+            // scrollbar: {
+            //     dragSize: 100
+            // }
+        },
+       991: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            scrollbar: {
+                dragSize: 200
+            }
         },
         1024: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            scrollbar: {
+                dragSize: 200
+            }
+        }
       },
       on: {
         slideChangeTransitionEnd: updateScrollbarPosition,

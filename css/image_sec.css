@@ -83,6 +83,7 @@
     position: absolute;
     left: 0;
     padding: 0;
+    background-position: center;
   }
   /* .img_text_contt {
     border: 2px solid red;

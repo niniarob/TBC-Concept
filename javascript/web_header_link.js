@@ -14,32 +14,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const toggleDropdown = (openClass) => {
       const toggleElement = document.querySelector(`.${openClass}`);
+      const isSameDropdown = currentlyOpen === openClass;
 
-      if (currentlyOpen === openClass) {
-        // Close the currently open dropdown
-        dropdowns[openClass].classList.remove('show');
-        dropdownBg.classList.add('hidden');
-        toggleElement.classList.remove('active');
-        currentlyOpen = null;
-      } else {
-        // Hide all dropdowns and remove active class
-        Object.values(dropdowns).forEach(dropdown => dropdown.classList.remove('show'));
-        document.querySelectorAll('.header_dropdown_toggle').forEach(toggle => toggle.classList.remove('active'));
+      // Close all dropdowns and remove active class
+      Object.values(dropdowns).forEach(dropdown => dropdown.classList.remove('show'));
+      document.querySelectorAll('.header_dropdown_toggle').forEach(toggle => toggle.classList.remove('active'));
+      dropdownBg.classList.add('hidden');
 
-        // Show the background
+      if (!isSameDropdown) {
+        // Open the selected dropdown and add active class
+        dropdowns[openClass].classList.add('show');
+        toggleElement.classList.add('active');
         dropdownBg.classList.remove('hidden');
-
-        // Show the selected dropdown and add active class
-        if (dropdowns[openClass]) {
-          dropdowns[openClass].classList.add('show');
-          toggleElement.classList.add('active');
-          currentlyOpen = openClass;
-        }
+        currentlyOpen = openClass;
+      } else {
+        currentlyOpen = null;
       }
     };
 
     // Add event listeners to toggle elements
-    document.querySelector('.w_open1').addEventListener('click', () => toggleDropdown('w_open1'));
-    document.querySelector('.w_open2').addEventListener('click', () => toggleDropdown('w_open2'));
-    document.querySelector('.w_open3').addEventListener('click', () => toggleDropdown('w_open3'));
+    ['w_open1', 'w_open2', 'w_open3'].forEach(openClass => {
+      document.querySelector(`.${openClass}`).addEventListener('click', () => toggleDropdown(openClass));
+    });
   });

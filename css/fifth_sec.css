@@ -155,6 +155,9 @@
     align-self: self-start;
     position: static;
   }
+  .get_app_wrapper {
+    background-color: #f9fafa;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -174,6 +177,9 @@
   }
   .app_button_mobile {
     display: flex;
+  }
+  .get_app_wrapper {
+    background-color: #f9fafa;
   }
 
   /* .get-app_buttons {

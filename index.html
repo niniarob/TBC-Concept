@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/award.css" />
     <link rel="stylesheet" href="./css/button_menu.css" />
+    <link rel="stylesheet" href="./css/web_header_link.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -83,13 +84,88 @@
               </svg>
             </div>
           </a>
-          <nav class="navbar header_menu_container">
+
+          <nav class="header_menu">
+            <div class="header_dropdown_menu w_dropdown">
+              <div class="header_dropdown_toggle w_dropdown_toggle w_open1">
+                <div>პროდუქტები</div>
+                <div class="header_dropdown_line_active"></div>
+              </div>
+              <nav
+                class="header_dropdown_list w_dropdown_list active"
+                id="dropdown1"
+              >
+                <a class="header_dropdown_link" href="#"
+                  >პროდუქტების მიმოხილვა</a
+                >
+                <a class="header_dropdown_link" href="#">ნაკრები</a>
+                <a class="header_dropdown_link" href="#">პირადი ბანკირი</a>
+              </nav>
+            </div>
+            <div class="header_dropdown_menu w_dropdown">
+              <div class="header_dropdown_toggle w_dropdown_toggle w_open2">
+                <div>შეთავაზებები</div>
+                <div class="header_dropdown_line_active"></div>
+              </div>
+              <nav
+                class="header_dropdown_list w_dropdown_list active"
+                id="dropdown2"
+              >
+                <a class="header_dropdown_link" href="#"> მიმოხილვა</a>
+                <a class="header_dropdown_link" href="#">შეთავაზებები</a>
+                <a class="header_dropdown_link" href="#">ღონისძიებები</a>
+              </nav>
+            </div>
+            <div class="header_dropdown_menu w_dropdown">
+              <div class="header_dropdown_toggle w_dropdown_toggle w_open3">
+                <div>კონცეპტის სივრცე</div>
+                <div class="header_dropdown_line_active"></div>
+              </div>
+              <nav
+                class="header_dropdown_list w_dropdown_list active"
+                id="dropdown3"
+              >
+                <a class="header_dropdown_link" href="#">მიმოხილვა</a>
+                <a class="header_dropdown_link" href="#">კაფე</a>
+                <a class="header_dropdown_link" href="#">ბიბლიოთეკა</a>
+                <a class="header_dropdown_link" href="#">კონცეპტ ფილიალები</a>
+              </nav>
+            </div>
+          </nav>
+          <div class="header_dropdown_bg" id="dropdownBg">
+            <div class="header_dropdown_container">
+              <a href="#" class="header_dropdown_link_block w_inline_block">
+                <div class="header_dropdown_link_block_img_wrapper">
+                  <img src="./assets/images/cart.png" />
+                </div>
+                <div class="arrow_link">
+                  <div class="arrow_button_link_icon">
+                    <svg
+                      data-v-562b0aec=""
+                      width="20"
+                      height="21"
+                      viewbox="0 0 20 21"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        data-v-562b0aec=""
+                        d="M15.8342 4.04761H7.50091C7.04258 4.04761 6.66758 4.42261 6.66758 4.88094C6.66758 5.33927 7.04258 5.71427 7.50091 5.71427H13.8259L3.57578 15.9643C3.25078 16.2893 3.25078 16.8143 3.57578 17.1393C3.74245 17.3059 3.95078 17.3809 4.16744 17.3809C4.38411 17.3809 4.59244 17.2976 4.75911 17.1393L15.0009 6.88927V13.2143C15.0009 13.6726 15.3759 14.0476 15.8342 14.0476C16.2925 14.0476 16.6675 13.6726 16.6675 13.2143V4.88094C16.6675 4.42261 16.2925 4.04761 15.8342 4.04761Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="butt_text">ციფრული ბანკი</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- <nav class="navbar header_menu_container">
             <ul>
               <li>პროდუქტები</li>
               <li>შეთავაზებები</li>
               <li>კონცეპტის სივრცე</li>
             </ul>
-          </nav>
+          </nav> -->
           <div class="right_header_buttons">
             <div class="search_container">
               <a class="header_search_button" href="#">
@@ -1988,6 +2064,7 @@
     <script src="./javascript/slider.js"></script>
     <script src="./javascript/cookies.js"></script>
     <script src="./javascript/button_triggle.js"></script>
+    <script src="./javascript/web_header_link.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- <script src="'./javascript/scroll.js"> </script> -->

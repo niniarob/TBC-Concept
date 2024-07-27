@@ -28,3 +28,10 @@ cd TBC-Cincept
 
 * პროექტის გასაშვებად გამოიყენეთ VSCode-ის extension (Live Server), რომლის მეშვეობითაც
 პროექტს დასტარტავთ development mode-ში.
+
+
+## Contact
+If you have any questions or suggestions, feel free to reach out to me:
+
+- Email: [ninorobakidze89@gmail.com]
+- LinkedIn: [https://www.linkedin.com/in/nino-robakidze-877094264/]

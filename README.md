@@ -17,13 +17,14 @@
 
 ## პროექტის დაკლონვა
 ### დასაკლონად გამოიყენეთ შემდეგი ბმული 
-
+```
 git clone https://github.com/niniarob/LeetCode.git
-
+```
 ### შედით პროექტის დირექტორიაში
-
+```
 cd TBC-Cincept
-
+```
 ### პროექტის გაშვება 
-პროექტის გასაშვებად გამოიყენეთ VSCode-ის extension (Live Server), რომლის მეშვეობითაც
+
+* პროექტის გასაშვებად გამოიყენეთ VSCode-ის extension (Live Server), რომლის მეშვეობითაც
 პროექტს დასტარტავთ development mode-ში.

@@ -8,16 +8,10 @@
 ## პროექტის სტრუქტურა 
 
 ### TBC-Concept საქაღალდეში გვხვდება სამი ფოლდერი : 
-
-* [assets](https://github.com/niniarob/TBC-Concept/tree/main/assets)
-* [css](https://github.com/niniarob/TBC-Concept/tree/main/css)
-* [javascript](https://github.com/niniarob/TBC-Concept/tree/main/javascript)
-
-
-
-1. [assets](#assets): Contains font files and images.
-2. [css](#css): Contains all the CSS files for styling the project.
-3. [javascript](#javascript): Contains all the JavaScript files for the project's functionality.
+ 
+* [assets](https://github.com/niniarob/TBC-Concept/tree/main/assets) : შეიცავს font ფაილებს და სურათებს.
+* [css](https://github.com/niniarob/TBC-Concept/tree/main/css) : შეიცავს ყველა CSS ფაილს პროექტის სტილისთვის.
+* [javascript](https://github.com/niniarob/TBC-Concept/tree/main/javascript) : შეიცავს ყველა JavaScript ფაილს პროექტის ფუნქციონირებისთვის.
 
 
 ## პროექტის დაკლონვა

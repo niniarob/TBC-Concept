@@ -15,6 +15,11 @@
 
 
 
+1. [assets](#assets): Contains font files and images.
+2. [css](#css): Contains all the CSS files for styling the project.
+3. [javascript](#javascript): Contains all the JavaScript files for the project's functionality.
+
+
 ## პროექტის დაკლონვა
 ### დასაკლონად გამოიყენეთ შემდეგი ბმული 
 ```

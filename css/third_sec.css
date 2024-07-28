@@ -113,7 +113,7 @@
 .sec_img_card img {
   object-fit: cover;
 }
-@media (max_width: 480px) {
+@media (max-width: 480px) {
 }
 @media (max-width: 480px) {
   .grid_part {

@@ -19,26 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
       991: { slidesPerView: 3, spaceBetween: 30, scrollbar: { dragSize: 200 } },
       1024: { slidesPerView: 3, spaceBetween: 30, scrollbar: { dragSize: 300 } },
     },
-    on: {
-      slideChangeTransitionEnd: updateScrollbarPosition,
-      setTranslate: updateScrollbarPosition,
-    },
   });
 
-  function updateScrollbarPosition() {
-    const scrollbar = document.querySelector('.swiper-scrollbar');
-    const drag = document.querySelector('.swiper-scrollbar-drag');
-    if (typeof swiper.maxTranslate === 'function') {
-      const maxTranslate = swiper.maxTranslate();
-      const currentTranslate = Math.abs(swiper.translate);
-      const progress = currentTranslate / maxTranslate;
-      const maxDragLeft = scrollbar.offsetWidth - drag.offsetWidth;
-      drag.style.transform = `translateX(${progress * maxDragLeft}px)`;
-      console.log(`Progress: ${progress}, Max Drag Left: ${maxDragLeft}`);
-    } else {
-      console.error('maxTranslate is not a function on swiper instance');
-    }
-  }
 
   function handleArrowClick(clickedArrow, otherArrow) {
     const clickedSvg = clickedArrow.querySelector('svg');
@@ -67,6 +49,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
-
-  updateScrollbarPosition();
 });

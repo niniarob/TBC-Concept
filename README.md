@@ -21,7 +21,7 @@ git clone https://github.com/niniarob/LeetCode.git
 ```
 ### შედით პროექტის დირექტორიაში
 ```
-cd TBC-Cincept
+cd TBC-Concept
 ```
 ### პროექტის გაშვება 
 

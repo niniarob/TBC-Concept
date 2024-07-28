@@ -2,29 +2,18 @@
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  /* border: 1px solid red; */
 }
-/* .padding {
-  padding: 0;
-} */
 .get_app_wrapper {
-  /* border: 1px solid red; */
   position: relative;
   background-color: #fff;
 }
-/* .global_padding {
-  padding-left: 47px;
-  padding-right: 47px;
-} */
 .get_app_container {
-  /* border: 2px solid green; */
   width: 100%;
   max-width: 1110px;
   margin-left: auto;
   margin-right: auto;
 }
 .get_app_inner {
-  /* border: 3px solid green; */
   min-height: 374px;
   justify-content: flex-start;
   align-items: center;
@@ -34,14 +23,12 @@
   position: relative;
 }
 .get_app_content {
-  /* border: 2px solid blue; */
   width: 55%;
   grid-row-gap: 16px;
   flex-direction: column;
   flex: none;
   align-items: flex-start;
   display: flex;
-  /* flex-direction: row-reverse; */
 }
 .get_app_content h2 {
   color: #141719;
@@ -58,7 +45,6 @@
   line-height: 1.7;
 }
 .get_app_buttons {
-  /* border: 1px solid green; */
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   flex-wrap: wrap;
@@ -124,10 +110,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  /* .global_padding {
-        padding-left: 45px;
-        padding-right: 45px;
-      } */
   .get_app_inner {
     min-height: 0;
     flex-direction: column;
@@ -165,10 +147,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .global_padding {
-    /* padding-left: 45px;
-    padding-right: 45px; */
-  }
   .get_app_inner {
     min-height: 300px;
   }
@@ -181,11 +159,4 @@
   .get_app_wrapper {
     background-color: #f9fafa;
   }
-
-  /* .get-app_buttons {
-        grid-column-gap: 16px;
-        grid-row-gap: 16px;
-        flex-wrap: wrap;
-        margin-top: 8px;
-        display: flex;} */
 }

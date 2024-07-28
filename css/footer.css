@@ -216,6 +216,9 @@ footer {
   grid-auto-columns: 1fr;
   display: grid;
 }
+.item h3 {
+  font-size: inherit;
+}
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .web_mobile_footer {
     display: none;

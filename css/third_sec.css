@@ -114,6 +114,15 @@
   object-fit: cover;
 }
 @media (max-width: 480px) {
+  .grid_card_content h3 {
+    font-size: 17px;
+  }
+  .image_text h2 {
+    /* color: #141719;
+    margin-top: 0; */
+    font-size: 15px;
+    /* font-weight: 700; */
+  }
 }
 @media (max-width: 480px) {
   .grid_part {

@@ -325,6 +325,9 @@ strong {
   .swiper_nav_arrow {
     display: none !important;
   }
+  .award_heading_wraper h2 {
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .section_awards_swiper {

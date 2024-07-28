@@ -79,6 +79,9 @@
   .img_text_contt button {
     width: 100%;
   }
+  /* .sec_last {
+    margin-top: 400px;
+  } */
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .img_sec {

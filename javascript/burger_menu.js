@@ -1,8 +1,9 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const burgerMenu = document.querySelector('.burger_menu');
     const header = document.querySelector('header');
     const mobileMenu = document.querySelector(".header_menu_mobile_version");
+    const headerMenu = document.querySelector('.header_menu');
+    const dropdownLinkBlock = document.querySelector('.header_dropdown_link_block');
 
     const toggleMenu = () => {
         burgerMenu.classList.toggle('open');
@@ -30,7 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    const refreshAnimation = () => {
+        dropdownLinkBlock.classList.remove('animate');
+        void dropdownLinkBlock.offsetWidth; // Trigger a reflow, flushing the CSS changes
+        dropdownLinkBlock.classList.add('animate');
+    };
+
     burgerMenu.addEventListener('click', toggleMenu);
     window.addEventListener('resize', handleResize);
-});
 
+    headerMenu.addEventListener('click', refreshAnimation);
+});

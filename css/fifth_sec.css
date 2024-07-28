@@ -1,6 +1,6 @@
 .section_get_app {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 .get_app_wrapper {
@@ -104,11 +104,20 @@
   max-width: 100%;
   display: inline-block;
 }
-
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .get_app_content h2 {
     font-size: 15px;
   }
+}
+@media acreen and(min-width:481px) and (max-width: 767px) {
+  .get_app_content h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  /* .get_app_content h2 {
+    font-size: 15px;
+  } */
   /* .section_get_app {
     margin-top: 300px;
   } */

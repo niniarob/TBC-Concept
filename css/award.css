@@ -1,6 +1,6 @@
 .section_awards_swiper {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px;
   overflow: hidden;
 }
@@ -328,6 +328,9 @@ strong {
   .award_heading_wraper h2 {
     font-size: 15px;
   }
+  .category_card_tittle {
+    font-size: 14px;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .section_awards_swiper {
@@ -346,11 +349,14 @@ strong {
     width: 100%;
   }
   .global_padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    /* padding-bottom: 50px; */
   }
   .swiper_nav_arrow {
     display: none !important;
+  }
+  .section_awards_swiper {
+    /* padding-top: 100px; */
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {

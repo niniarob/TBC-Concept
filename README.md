@@ -22,7 +22,8 @@
 
 პროექტი და-host-ილია GitHub Page-ზე და მისი ნახვა შეგიძლიათ:(https://tbc-concept.vercel.app/)
 
-### დასაკლონად გამოიყენეთ შემდეგი ბმული 
+### ლოკალურად გასაშვებად საჭიროა:
+*1. დაკლონოთ რეპოზიტორია
 ```
 git clone https://github.com/niniarob/LeetCode.git
 ```

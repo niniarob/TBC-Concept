@@ -34,7 +34,6 @@ footer {
   align-items: center;
 }
 .choose_languagee:hover {
-  /* background-color: rgb(8, 8, 8, 9); */
   background-color: #f1f1f1;
 
   transition: 0.3s;
@@ -242,9 +241,6 @@ footer {
   .footer_logo_lang_cont {
     padding: 0 15px;
   }
-  /* .footer_top_part {
-    margin-top: 200px;
-  } */
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .web_mobile_footer {

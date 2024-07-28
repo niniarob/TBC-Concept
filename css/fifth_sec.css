@@ -115,16 +115,6 @@
   }
 }
 @media (max-width: 767px) {
-  /* .get_app_content h2 {
-    font-size: 15px;
-  } */
-  /* .section_get_app {
-    margin-top: 300px;
-  } */
-  /* .section_get_app {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  } */
   .get_app_inner {
     min-height: 0;
     flex-direction: column;

@@ -7,18 +7,13 @@
   display: flex;
   position: fixed;
   bottom: 32px;
-  /* border: 1px solid red; */
   right: 32px;
-  /* width: 100px;
-  height: 100px;
-  background-color: aqua; */
 }
 .buttons {
   gap: 16px;
   gap: 16px;
   flex-wrap: wrap;
   display: flex;
-  /*  */
   gap: 12px;
   flex-direction: column;
   justify-content: flex-end;
@@ -60,37 +55,15 @@
   padding: 16px;
   transition: background-color 0.25s ease-in-out;
   display: flex;
-  /* border: 1px solid red; */
 }
 .w-inline-block {
   max-width: 100%;
-  /* display: inline-block; */
 }
 .button_icon {
   justify-content: center;
   align-items: center;
   display: flex;
 }
-.butt_icon {
-}
-/* .butt_icon:after {
-  content: " ";
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
-  clear: both;
-}
-.butt_icon:before {
-  content: " ";
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
-} */
-
 .button_menu_button:hover {
   background-color: rgb(56, 149, 230);
 }
@@ -108,7 +81,6 @@
   border-radius: 6px;
   padding: 8px 12px;
   font-size: 14px;
-  /* transition: opacity 0.25s ease-in-out; */
   position: absolute;
   right: 68px;
   opacity: 0;
@@ -129,13 +101,9 @@
   left: auto;
   right: -6px;
 }
-
-/* Hide the .buttons container initially */
 .hidden {
   display: none;
 }
-
-/* Transition effect for showing the .buttons container */
 .buttons {
   transition:
     opacity 0.4s,
@@ -143,8 +111,6 @@
   opacity: 0;
   visibility: hidden;
 }
-
-/* When .buttons container is active */
 .buttons.active {
   opacity: 1;
   visibility: visible;

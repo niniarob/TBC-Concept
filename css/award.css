@@ -4,15 +4,11 @@
   padding-bottom: 60px;
   overflow: hidden;
 }
-/* .global_padding {
-} */
 .awards_swiper_container {
   width: 100%;
   max-width: 1110px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 3px solid green; */
-  /* padding: 0 47px; */
 }
 .award_heading_wraper {
   display: flex;
@@ -52,7 +48,6 @@
 }
 .swiper-slide {
   width: 350px;
-  /* height: 358px !important; */
   margin-right: 30px;
   height: auto;
   flex-shrink: 0;
@@ -103,45 +98,33 @@
   line-height: 1.7;
 }
 .swiper-scrollbar {
-  /* border: 1px solid red; */
   bottom: 0 !important;
   height: 1px !important;
   bottom: 0 !important;
   background-color: #d1d5d6 !important;
-  /* bottom: 0 !important; */
   border-radius: 1px;
   bottom: 0 !important;
   top: auto;
-  /* margin-bottom: -10px !important; */
   left: 0 !important;
   bottom: 0 !important;
-  /* right: 0 !important; */
-  /* margin-right: 200px !important; */
 }
 .swiper-scrollbar-drag {
   width: 300px !important;
   background-color: #182cc0 !important;
   border-radius: 1px !important;
-  /* height: 100% !important; */
   position: relative !important;
   left: 0 !important;
   top: 0 !important;
   margin-bottom: -10px !important;
   margin-right: 20px !important;
-  /* transform: translateX(-743px) !important; */
 }
 .swiper_nav_arrows {
-  /* border: 1px solid green; */
   display: flex;
   align-items: center;
   justify-content: end;
-  /* justify-content: flex-end; */
   gap: 16px;
-  /* margin-top: -11px; */
-  /* border: 1px solid blue; */
 }
 .swiper_nav_arrow {
-  /* border: 1px solid red; */
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -164,7 +147,6 @@
 
 .swiper-horizontal > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-  /* position: absolute !important; */
   left: var(--swiper-scrollbar-sides-offset, 0%) !important;
   right: var(--swiper-scrollbar-sides-offset, 10%) !important;
   bottom: var(--swiper-scrollbar-bottom, 10px) !important;
@@ -173,16 +155,10 @@
   height: var(--swiper-scrollbar-size, 2px) !important;
   width: calc(100% - 2 * var(--swiper-scrollbar-sides-offset, 3%)) !important;
 }
-/* .flex_swiper_arrow {
-  border: 2px solid red;
-} */
-
 .swiper_slide_active {
   width: 350px;
   height: 358px !important;
   margin-right: 30px;
-  /* border: 1px solid red; */
-  /* height: auto; */
 }
 .product_card {
   cursor: pointer;
@@ -203,8 +179,6 @@
 }
 .product_card_img_wraper img {
   width: 100%;
-
-  /* padding-top: 60%; */
   position: relative;
   overflow: hidden;
   position: relative;
@@ -250,7 +224,6 @@
   -webkit-box-orient: vertical;
   font-size: 14px;
   color: #6f787b;
-  /* text-decoration: n; */
 }
 strong {
   color: rgb(79, 78, 78);
@@ -289,12 +262,10 @@ strong {
   font-size: 16px;
   color: #141719;
   margin-top: 0;
-  /* font-size: 24px; */
   font-weight: 700;
 }
 .product_card_img_wraper {
   width: 100%;
-  /* padding-top: 60%; */
   position: relative;
   overflow: hidden;
   position: relative;
@@ -316,31 +287,18 @@ strong {
   box-shadow:
     rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
 }
-.swiper_slide_hover {
-  /* border: 1px solid red; */
-}
-
-/* .banner_img {
-} */
 
 @media (max-width: 480px) {
   .section_awards_swiper {
-    /* border: 1px solid red; */
     width: 100%;
   }
   .swiper_nav_arrow {
     display: none !important;
   }
-  /* .swiper-slide {
-    width: 321px;
-    margin-right: 15px;
-  } */
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .section_awards_swiper {
-    /* border: 1px solid red; */
     width: 100%;
   }
   .swiper_nav_arrow {
@@ -353,7 +311,6 @@ strong {
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .section_awards_swiper {
-    /* border: 1px solid red; */
     width: 100%;
   }
   .global_padding {
@@ -363,13 +320,9 @@ strong {
   .swiper_nav_arrow {
     display: none !important;
   }
-  /* .swiper_container {
-
-  } */
 }
 @media screen and (min-width: 992px) and (max-width: 1440px) {
   .section_awards_swiper {
-    /* border: 1px solid red; */
     width: 100%;
   }
 }

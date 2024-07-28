@@ -8,7 +8,7 @@
 ## პროექტის სტრუქტურა 
 
 ### TBC-Concept საქაღალდეში გვხვდება სამი ფოლდერი : 
-* [assets](https://github.com/niniarob/TBC-Concept/tree/main/assets) : შეიცავს font ფაილებს და სურათებს.
+* [assets](https://github.com/niniarob/TBC-Concept/tree/main/assets) : შეიცავს font ფოლდერს და images ფოლდერს.
 * [css](https://github.com/niniarob/TBC-Concept/tree/main/css) : შეიცავს ყველა CSS ფაილს პროექტის სტილისთვის.
 * [javascript](https://github.com/niniarob/TBC-Concept/tree/main/javascript) : შეიცავს ყველა JavaScript ფაილს პროექტის ფუნქციონირებისთვის.
 
@@ -19,6 +19,8 @@
 * javascript
 
 ## პროექტის გაშვების ინსტრუქცია
+
+პროექტი და-host-ილია GitHub Page-ზე და მისი ნახვა შეგიძლიათ: http://dadu400.github.io/tbcxusaid/
 
 ### დასაკლონად გამოიყენეთ შემდეგი ბმული 
 ```

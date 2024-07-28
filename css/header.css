@@ -92,8 +92,8 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.w_open {
-}
+/* .w_open {
+} */
 
 .navbar {
   height: 100%;
@@ -181,8 +181,8 @@ header {
   pointer-events: all;
   transition-delay: 0.6s; */
 }
-.active {
-}
+/* .active {
+} */
 .header_dropdown_link {
   padding-right: 47px;
   font-size: 15px;
@@ -190,7 +190,7 @@ header {
   text-decoration: none;
   transition: color 0.25s ease-in-out;
   cursor: pointer;
-  color: black;
+  color: #555f62;
 }
 .hidden {
   display: none;
@@ -458,8 +458,8 @@ header {
   .choose_language {
     display: none;
   }
-  header {
-  }
+  /* header {
+  } */
   .header_container {
     width: 100%;
     justify-content: space-between;

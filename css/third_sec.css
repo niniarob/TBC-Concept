@@ -121,10 +121,7 @@
     font-size: 12px;
   }
   .image_text h2 {
-    /* color: #141719;
-    margin-top: 0; */
     font-size: 15px;
-    /* font-weight: 700; */
   }
   .grid_image_wrapper img {
     object-fit: cover;

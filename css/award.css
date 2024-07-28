@@ -224,6 +224,8 @@
   -webkit-box-orient: vertical;
   font-size: 14px;
   color: #6f787b;
+  font-weight: 400;
+  line-height: 1.7;
 }
 strong {
   color: rgb(79, 78, 78);

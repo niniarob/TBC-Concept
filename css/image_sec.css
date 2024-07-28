@@ -64,6 +64,9 @@
   transition: 2s;
 }
 @media (max-width: 480px) {
+  .img_text_contt h3 {
+    font-size: 17px;
+  }
   .img_cont {
     position: absolute;
     left: 0;

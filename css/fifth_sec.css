@@ -106,6 +106,9 @@
 }
 
 @media (max-width: 767px) {
+  .get_app_content h2 {
+    font-size: 15px;
+  }
   /* .section_get_app {
     margin-top: 300px;
   } */

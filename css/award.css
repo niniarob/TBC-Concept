@@ -89,7 +89,7 @@
   font-size: 16px;
   color: #141719;
   font-weight: 700;
-  line-height: 3;
+  line-height: 2;
 }
 .award_card_content p {
   color: #555f62;
@@ -241,7 +241,11 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   font-size: 14px;
+  color: #6f787b;
   /* text-decoration: n; */
+}
+strong {
+  color: rgb(79, 78, 78);
 }
 .card_teaser p {
   color: #555f62;
@@ -265,6 +269,20 @@
   transition: all 0.25s ease-in-out;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+}
+.card_category {
+  margin-right: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6f787b;
+  margin-bottom: 4px;
+}
+.card_categorysec {
+  font-size: 16px;
+  color: #141719;
+  margin-top: 0;
+  /* font-size: 24px; */
+  font-weight: 700;
 }
 
 .banner_img {

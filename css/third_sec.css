@@ -1,6 +1,6 @@
 .sec_third_images {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 .text_image_container {
@@ -117,11 +117,17 @@
   .grid_card_content h3 {
     font-size: 17px;
   }
+  .arrow_txt {
+    font-size: 12px;
+  }
   .image_text h2 {
     /* color: #141719;
     margin-top: 0; */
     font-size: 15px;
     /* font-weight: 700; */
+  }
+  .grid_image_wrapper img {
+    object-fit: cover;
   }
 }
 @media (max-width: 480px) {
